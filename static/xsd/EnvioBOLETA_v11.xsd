@@ -2,9 +2,9 @@
 <xs:schema targetNamespace="http://www.sii.cl/SiiDte" xmlns:SiiDte="http://www.sii.cl/SiiDte" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
 	<xs:import namespace="http://www.w3.org/2000/09/xmldsig#" schemaLocation="xmldsignature_v10.xsd"/>
 	<!--
-	  Modificacion		 : 16 de Abril del  2007. 
+	  Modificacion		 : 16 de Abril del  2007.
          Nueva version		: EnvioBOLETA_v11.xsd
-         Modificacion 		: 22 de Abril del  2010. 
+         Modificacion 		: 22 de Abril del  2010.
          Nueva version		: EnvioBOLETA_v11.xsd
       -->
 	<xs:element name="EnvioBOLETA">
@@ -161,7 +161,7 @@
 															</xs:enumeration>
 															<xs:enumeration value="4">
 																<xs:annotation>
-																	<xs:documentation>Boleta de Espectáculo emitida por  cuenta de Terceros</xs:documentation>
+																	<xs:documentation>Boleta de Espectï¿½culo emitida por  cuenta de Terceros</xs:documentation>
 																</xs:annotation>
 															</xs:enumeration>
 														</xs:restriction>
@@ -491,7 +491,7 @@
 									</xs:element>
 									<xs:element name="ItemEspectaculo" minOccurs="0">
 										<xs:annotation>
-											<xs:documentation>Indica si el ítem es :
+											<xs:documentation>Indica si el ï¿½tem es :
 01: TICKET
 02: VALOR SERVICIO</xs:documentation>
 										</xs:annotation>
@@ -535,7 +535,7 @@
 											<xs:sequence>
 												<xs:element name="FolioTicket">
 													<xs:annotation>
-														<xs:documentation>Corresponde a la numeración única para el evento.</xs:documentation>
+														<xs:documentation>Corresponde a la numeraciï¿½n ï¿½nica para el evento.</xs:documentation>
 													</xs:annotation>
 													<xs:simpleType>
 														<xs:restriction base="xs:positiveInteger">
@@ -545,7 +545,7 @@
 												</xs:element>
 												<xs:element name="FchGenera">
 													<xs:annotation>
-														<xs:documentation>Corresponde a la fecha y hora de generación del ticket
+														<xs:documentation>Corresponde a la fecha y hora de generaciï¿½n del ticket
 (AAAA-MM-DDThh:mm:ss)</xs:documentation>
 													</xs:annotation>
 													<xs:simpleType>
@@ -557,7 +557,7 @@
 												</xs:element>
 												<xs:element name="NmbEvento">
 													<xs:annotation>
-														<xs:documentation>Nombre del Espectáculo</xs:documentation>
+														<xs:documentation>Nombre del Espectï¿½culo</xs:documentation>
 													</xs:annotation>
 													<xs:simpleType>
 														<xs:restriction base="xs:string">
@@ -567,7 +567,7 @@
 												</xs:element>
 												<xs:element name="TpoTiket">
 													<xs:annotation>
-														<xs:documentation>Tipo de ticket, Por ejemplo: Adulto, Niño, etc</xs:documentation>
+														<xs:documentation>Tipo de ticket, Por ejemplo: Adulto, Niï¿½o, etc</xs:documentation>
 													</xs:annotation>
 													<xs:simpleType>
 														<xs:restriction base="xs:string">
@@ -577,7 +577,7 @@
 												</xs:element>
 												<xs:element name="CdgEvento">
 													<xs:annotation>
-														<xs:documentation>Código asociado al Evento</xs:documentation>
+														<xs:documentation>Cï¿½digo asociado al Evento</xs:documentation>
 													</xs:annotation>
 													<xs:simpleType>
 														<xs:restriction base="xs:string">
@@ -587,7 +587,7 @@
 												</xs:element>
 												<xs:element name="FchEvento">
 													<xs:annotation>
-														<xs:documentation>Fecha y hora de realización del evento AAAA-MM-DDThh:mm:ss)</xs:documentation>
+														<xs:documentation>Fecha y hora de realizaciï¿½n del evento AAAA-MM-DDThh:mm:ss)</xs:documentation>
 													</xs:annotation>
 													<xs:simpleType>
 														<xs:restriction base="xs:dateTime">
@@ -598,7 +598,7 @@
 												</xs:element>
 												<xs:element name="LugarEvento">
 													<xs:annotation>
-														<xs:documentation>Dirección o identificación del recinto donde se realizará el  Espectáculo</xs:documentation>
+														<xs:documentation>Direcciï¿½n o identificaciï¿½n del recinto donde se realizarï¿½ el  Espectï¿½culo</xs:documentation>
 													</xs:annotation>
 													<xs:simpleType>
 														<xs:restriction base="xs:string">
@@ -608,7 +608,7 @@
 												</xs:element>
 												<xs:element name="UbicEvento">
 													<xs:annotation>
-														<xs:documentation>Sector/Sección de la ubicación en el evento</xs:documentation>
+														<xs:documentation>Sector/Secciï¿½n de la ubicaciï¿½n en el evento</xs:documentation>
 													</xs:annotation>
 													<xs:simpleType>
 														<xs:restriction base="xs:string">
@@ -618,7 +618,7 @@
 												</xs:element>
 												<xs:element name="FilaUbicEvento" minOccurs="0">
 													<xs:annotation>
-														<xs:documentation>Fila correspondiente a la Ubicación en el evento</xs:documentation>
+														<xs:documentation>Fila correspondiente a la Ubicaciï¿½n en el evento</xs:documentation>
 													</xs:annotation>
 													<xs:simpleType>
 														<xs:restriction base="xs:string">
@@ -628,7 +628,7 @@
 												</xs:element>
 												<xs:element name="AsntoUbicEvento" minOccurs="0">
 													<xs:annotation>
-														<xs:documentation>N° de Asiento correspondiente a la Ubicación en el evento</xs:documentation>
+														<xs:documentation>Nï¿½ de Asiento correspondiente a la Ubicaciï¿½n en el evento</xs:documentation>
 													</xs:annotation>
 													<xs:simpleType>
 														<xs:restriction base="xs:string">
@@ -675,7 +675,7 @@
 										</xs:annotation>
 										<xs:simpleType>
 											<xs:restriction base="SiiDte:PctType">
-												<xs:minInclusive value="0.00"/>
+												<xs:minInclusive value="0.01"/>
 												<xs:maxInclusive value="100.00"/>
 											</xs:restriction>
 										</xs:simpleType>
@@ -697,7 +697,7 @@
 										<xs:simpleType>
 											<xs:restriction base="SiiDte:PctType">
 												<xs:maxInclusive value="100.00"/>
-												<xs:minInclusive value="0.00"/>
+												<xs:minInclusive value="0.01"/>
 											</xs:restriction>
 										</xs:simpleType>
 									</xs:element>
@@ -727,7 +727,7 @@
 								<xs:sequence>
 									<xs:element name="NroSTI">
 										<xs:annotation>
-											<xs:documentation>Número de Subtotal </xs:documentation>
+											<xs:documentation>Nï¿½mero de Subtotal </xs:documentation>
 										</xs:annotation>
 										<xs:simpleType>
 											<xs:restriction base="xs:positiveInteger">
@@ -747,7 +747,7 @@
 									</xs:element>
 									<xs:element name="OrdenSTI">
 										<xs:annotation>
-											<xs:documentation>Ubicación para Impresión </xs:documentation>
+											<xs:documentation>Ubicaciï¿½n para Impresiï¿½n </xs:documentation>
 										</xs:annotation>
 										<xs:simpleType>
 											<xs:restriction base="xs:positiveInteger">
@@ -767,7 +767,7 @@
 									</xs:element>
 									<xs:element name="SubTotAdicSTI" type="SiiDte:Dec1Type" minOccurs="0">
 										<xs:annotation>
-											<xs:documentation>Valor de los Impuestos adicionales o específicos del Subtotal</xs:documentation>
+											<xs:documentation>Valor de los Impuestos adicionales o especï¿½ficos del Subtotal</xs:documentation>
 										</xs:annotation>
 									</xs:element>
 									<xs:element name="SubTotExeSTI" type="SiiDte:Dec1Type" minOccurs="0">
@@ -777,12 +777,12 @@
 									</xs:element>
 									<xs:element name="ValSubtotSTI" type="SiiDte:Dec1Type" minOccurs="0">
 										<xs:annotation>
-											<xs:documentation>Valor de la línea de subtotal</xs:documentation>
+											<xs:documentation>Valor de la lï¿½nea de subtotal</xs:documentation>
 										</xs:annotation>
 									</xs:element>
 									<xs:element name="LineasDeta" minOccurs="0" maxOccurs="60">
 										<xs:annotation>
-											<xs:documentation>TABLA de  Líneas de Detalle que se agrupan en el Subtotal</xs:documentation>
+											<xs:documentation>TABLA de  Lï¿½neas de Detalle que se agrupan en el Subtotal</xs:documentation>
 										</xs:annotation>
 										<xs:simpleType>
 											<xs:restriction base="xs:positiveInteger">
@@ -923,7 +923,7 @@
 									</xs:element>
 									<xs:element name="CodVndor" minOccurs="0">
 										<xs:annotation>
-											<xs:documentation>Código del Vendedor establecido por la Empresa. Puede estar asociado a INTERNET</xs:documentation>
+											<xs:documentation>Cï¿½digo del Vendedor establecido por la Empresa. Puede estar asociado a INTERNET</xs:documentation>
 										</xs:annotation>
 										<xs:simpleType>
 											<xs:restriction base="xs:string">
@@ -933,7 +933,7 @@
 									</xs:element>
 									<xs:element name="CodCaja" minOccurs="0">
 										<xs:annotation>
-											<xs:documentation>Código de la caja establecido por la Empresa</xs:documentation>
+											<xs:documentation>Cï¿½digo de la caja establecido por la Empresa</xs:documentation>
 										</xs:annotation>
 										<xs:simpleType>
 											<xs:restriction base="xs:string">

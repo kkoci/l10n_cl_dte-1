@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<!-- edited with XMLSPY v5 rel. 4 U (http://www.xmlspy.com) by Mauricio Urbina (Servicios de Impuestos Internos) -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
 	<xs:element name="RESULTADO_ENVIO">
 		<xs:complexType>
@@ -91,11 +90,6 @@
 					<xs:documentation>Factura Electronica de Venta de Bienes y Servicios No afectos o Exento de IVA</xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
-			<xs:enumeration value="43">
-				<xs:annotation>
-					<xs:documentation>Liquidación-Factura Electrónica</xs:documentation>
-				</xs:annotation>
-			</xs:enumeration>
 			<xs:enumeration value="46">
 				<xs:annotation>
 					<xs:documentation>Factura de Compra Electronica</xs:documentation>
@@ -114,21 +108,6 @@
 			<xs:enumeration value="61">
 				<xs:annotation>
 					<xs:documentation>Nota de Credito Electronica</xs:documentation>
-				</xs:annotation>
-			</xs:enumeration>
-			<xs:enumeration value="110">
-				<xs:annotation>
-					<xs:documentation>Factura de Exportación Electrónica</xs:documentation>
-				</xs:annotation>
-			</xs:enumeration>
-			<xs:enumeration value="111">
-				<xs:annotation>
-					<xs:documentation>Nota de Débito de Exportación Electrónica</xs:documentation>
-				</xs:annotation>
-			</xs:enumeration>
-			<xs:enumeration value="112">
-				<xs:annotation>
-					<xs:documentation>Nota de Crédito de Exportación Electrónica</xs:documentation>
 				</xs:annotation>
 			</xs:enumeration>
 		</xs:restriction>
